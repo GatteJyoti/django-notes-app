@@ -1,6 +1,5 @@
 services:
   django_app:
-    build:
-      context: .
+    image: "jyotigatte/notes-app:latest"
     ports:
       - "8000:8000"
