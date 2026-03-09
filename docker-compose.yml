@@ -2,4 +2,4 @@ services:
   django_app:
     image: "jyotigatte/notes-app:latest"
     ports:
-      - "9000:8000"
+      - "8000:8000"
